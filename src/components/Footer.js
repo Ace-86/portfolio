@@ -1,10 +1,10 @@
 import React from 'react';
-import './styles/Foooter.css';
+import './styles/Footer.css';
 
 function Footer() {
   return (
     <div className="footer">
-      
+      <p> This is my footer</p>
     </div>
   );
 }
