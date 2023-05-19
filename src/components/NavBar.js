@@ -1,25 +1,47 @@
-import { Link as LinkRouter } from 'react-router-dom'
-import React, { useState } from 'react'
+import React, { Component } from 'react'
 import  "./styles/NavBar.css"
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-function NavBar() {
 
-    const [click, setClick] = useState(true);
 
-    return (
-    <>
-        <div className="NavbarContainer">
-            <div className="NavBar">
+class NavBar extends React.Component {
+
+        constructor(props) {
+            super(props);
+            this.scrollToTop = this.scrollToTop.bind(this);
+          }
+        
+          scrollToTop() {
+            scroll.scrollToTop();
+          }
+        
+          scrollTo() {
+            scroller.scrollTo('scroll-to-element', {
+              duration: 800,
+              delay: 0,
+              smooth: 'easeInOutQuart'
+            })
+          }
+        
+          render() {
+            return (
+              <div>
+                  <nav className="navbar navbar-default navbar-fixed-top">
+                    <div className="container-fluid">
+                      <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul className="nav navbar-nav">
+                          <li><Link activeClass="active" className="home" to="Home" spy={true} smooth={true} duration={500} >Home</Link></li>
+                          <li><Link activeClass="active" className="about" to="About" spy={true} smooth={true} duration={500}>About</Link></li>
+                          <li><Link activeClass="active" className="project" to="Project" spy={true} smooth={true} duration={500} >Project</Link></li>
+                          <li><Link activeClass="active" className="contact" to="Contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  </div>
                 
-                <LinkRouter onClick={() => setClick(false)} to='/'> Page1</LinkRouter>
-                <LinkRouter onClick={() => setClick(false)} to='/page2'> Page2</LinkRouter>
-                <LinkRouter onClick={() => setClick(false)} to='/page3'> Page3</LinkRouter>
-                <LinkRouter onClick={() => setClick(false)} to='/page4'> Page4</LinkRouter>
-  
-            </div>
-        </div>
-    </>
   );
+}
 }
 
 export default NavBar;
