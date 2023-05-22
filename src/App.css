@@ -18,3 +18,21 @@
   .active {
     color: red !important;
   }
+
+  .hero-main {
+    background-color: #ededed;
+  }
+
+  .project-main {
+    background-color: #ededed;
+
+  }
+
+  .about-main {
+    background-color: rgba(128, 128, 128, 0.418); 
+  }
+
+  .contact-main {
+    background-color: rgba(128, 128, 128, 0.418); 
+
+  }

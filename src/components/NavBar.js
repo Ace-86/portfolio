@@ -29,11 +29,11 @@ class NavBar extends React.Component {
                   <nav className="navbar navbar-default navbar-fixed-top">
                     <div className="container-fluid">
                       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul className="nav navbar-nav">
-                          <li><Link activeClass="active" className="home" to="Home" spy={true} smooth={true} duration={500} >Home</Link></li>
-                          <li><Link activeClass="active" className="about" to="About" spy={true} smooth={true} duration={500}>About</Link></li>
-                          <li><Link activeClass="active" className="project" to="Project" spy={true} smooth={true} duration={500} >Project</Link></li>
-                          <li><Link activeClass="active" className="contact" to="Contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
+                        <ul className="nav">
+                          <li><Link activeClass="active" className="link home-style" to="Home" spy={true} smooth={true} duration={500} >Home</Link></li>
+                          <li><Link activeClass="active" className="link about-style" to="About" spy={true} smooth={true} duration={500}>About</Link></li>
+                          <li><Link activeClass="active" className="link project-style" to="Project" spy={true} smooth={true} duration={500} >Project</Link></li>
+                          <li><Link activeClass="active" className="link contact-style" to="Contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
                         </ul>
                       </div>
                     </div>

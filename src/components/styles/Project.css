@@ -1,4 +1,6 @@
 .project {
     border: 2px solid purple;
-    height: 1000px;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-color: rgba(44, 43, 43, 0.452); */
 }

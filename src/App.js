@@ -20,19 +20,19 @@ function App () {
       <>
       <NavBar />
 
-          <Element name="Hero" className="element" >
+          <Element name="Hero" className="element hero-main" >
             <Hero />
         </Element>
 
-          <Element name="About" className="element">
+          <Element name="About" className="element about-main">
             <About />
         </Element>
 
-          <Element name="Project" className="element">
+          <Element name="Project" className="element project-main">
             <Project />
         </Element>
 
-          <Element name="Contact" className="element">
+          <Element name="Contact" className="element contact-main">
             <Contact />
         </Element>
           

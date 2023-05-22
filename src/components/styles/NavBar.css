@@ -1,4 +1,30 @@
-.navbarContainer {
+/* .navbarContainer {
     background-color: white;
     border: 2px solid red;
+    text-decoration: none;
+} */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    /* text-decoration: none; */
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgba(110, 109, 109, 0.493);
+
 }
+
+.home-style:hover,
+.about-style:hover,
+.contact-style:hover,
+.project-style:hover {
+    text-decoration: underline;
+    color: blue
+}
+
+
+
+.link {
+    color: black;
+}
+
