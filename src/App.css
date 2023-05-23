@@ -15,9 +15,9 @@
     padding-top: 0;
   }
   
-  .active {
+  /* .active {
     color: red !important;
-  }
+  } */
 
   .hero-main {
     background-color: #ededed;
@@ -29,10 +29,10 @@
   }
 
   .about-main {
-    background-color: rgba(128, 128, 128, 0.418); 
+    background-color: rgba(183, 0, 255, 0.678); 
   }
 
   .contact-main {
-    background-color: rgba(128, 128, 128, 0.418); 
+    background-color: rgba(183, 0, 255, 0.678); 
 
   }
