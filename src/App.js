@@ -36,9 +36,9 @@ function App () {
             <Contact />
         </Element>
           
-        {/* <Footer> */}
+        <Footer>
           {/* <a onClick={this.scrollToTop}>To the top!</a> */}
-        {/* </Footer> */}
+        </Footer>
     </>
     );
   }
