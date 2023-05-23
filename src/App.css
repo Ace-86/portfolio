@@ -20,19 +20,19 @@
   } */
 
   .hero-main {
-    background-color: #ededed;
+    background-color: #000000;
   }
 
   .project-main {
-    background-color: #ededed;
+    background-color: #000000;
 
   }
 
   .about-main {
-    background-color: rgba(183, 0, 255, 0.678); 
+    background-color: #01f7b6; 
   }
 
   .contact-main {
-    background-color: rgba(183, 0, 255, 0.678); 
+    background-color: #01f7b6; 
 
   }
