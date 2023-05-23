@@ -1,14 +1,19 @@
 import React from 'react';
-import  {Carousel}  from 'bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+import grass from "./images/grass.jpg";
+import moon from "./images/moon.jpg";
+import apple from "./images/apple.jpg";
+import "./styles/Project.css"
+
 
 function ProjectCarousel() {
   return (
-    <div>
+    <div className='project-container'>
         <Carousel fade>
             <Carousel.Item>
             <img
-                className='d-block w-100'
-                src=''
+                className='d-block w-100 carousel-inners'
+                src={grass}
                 alt="slide 1"
                 />
 
@@ -20,8 +25,8 @@ function ProjectCarousel() {
 
         <Carousel.Item>
             <img
-                className='d-block w-100'
-                src=''
+                className='d-block w-100 carousel-inners '
+                src={apple}
                 alt="slide 2"
                 />
 
@@ -33,8 +38,8 @@ function ProjectCarousel() {
 
         <Carousel.Item>
             <img
-                className='d-block w-100'
-                src=''
+                className='d-block w-100 carousel-inners'
+                src={moon}
                 alt="slide 3"
                 />
 
