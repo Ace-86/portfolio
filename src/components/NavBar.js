@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import  "./styles/NavBar.css"
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class NavBar extends React.Component {
@@ -26,16 +26,15 @@ class NavBar extends React.Component {
           render() {
             return (
               <div>
-                  <nav className="navbar navbar-default navbar-fixed-top">
+                  <nav className=" navbar-expand-lg fixed-top">
                     <div className="container-fluid">
-                      <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul className="nav">
-                          <li><Link activeClass="active" className="link home-style" to="Home" spy={true} smooth={true} duration={500} >Home</Link></li>
+                      <div> Ace</div>
+                        <ul className="style-nav">
+                          <li><Link activeClass="active" className="link home-style" to="Hero" spy={true} smooth={true} duration={500} >Home</Link></li>
                           <li><Link activeClass="active" className="link about-style" to="About" spy={true} smooth={true} duration={500}>About</Link></li>
                           <li><Link activeClass="active" className="link project-style" to="Project" spy={true} smooth={true} duration={500} >Project</Link></li>
                           <li><Link activeClass="active" className="link contact-style" to="Contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
                         </ul>
-                      </div>
                     </div>
                   </nav>
                   </div>
