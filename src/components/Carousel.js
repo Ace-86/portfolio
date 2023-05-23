@@ -1,19 +1,48 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap/Carousel';
+import  {Carousel}  from 'bootstrap';
 
 function ProjectCarousel() {
   return (
     <div>
         <Carousel fade>
+            <Carousel.Item>
             <img
-                className='d-blcok w-100'
+                className='d-block w-100'
                 src=''
-                alt="slide one"
+                alt="slide 1"
                 />
+
         <Carousel.Caption>
-            <h3> slide test</h3>
+            <h3> slide 1</h3>
             <p> project explanation</p>
         </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+            <img
+                className='d-block w-100'
+                src=''
+                alt="slide 2"
+                />
+
+        <Carousel.Caption>
+            <h3> slide 2</h3>
+            <p> project explanation</p>
+        </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+            <img
+                className='d-block w-100'
+                src=''
+                alt="slide 3"
+                />
+
+        <Carousel.Caption>
+            <h3> slide 3</h3>
+            <p> project explanation</p>
+        </Carousel.Caption>
+        </Carousel.Item>
 
         </Carousel>
     </div>
