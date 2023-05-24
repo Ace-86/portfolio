@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from './Form';
-
+import Links from './Links';
 import './styles/Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
@@ -16,7 +16,7 @@ function Contact() {
         <ContactForm className='col-sm '/>
       </Col>
         <Col>
-          right side
+          <Links />
         </Col>
       </Row>
     </div>
