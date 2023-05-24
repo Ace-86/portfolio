@@ -1,8 +1,9 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import grass from "./images/grass.jpg";
 import moon from "./images/moon.jpg";
 import apple from "./images/apple.jpg";
+
+import Carousel from 'react-bootstrap/Carousel';
 import "./styles/Project.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 

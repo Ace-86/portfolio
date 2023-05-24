@@ -1,6 +1,7 @@
 import React from 'react';
-import './styles/Contact.css';
 import ContactForm from './Form';
+
+import './styles/Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';

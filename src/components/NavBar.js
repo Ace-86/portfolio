@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import  "./styles/NavBar.css"
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, animateScroll as scroll, scroller } from 'react-scroll'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 
 class NavBar extends React.Component {
@@ -25,19 +27,26 @@ class NavBar extends React.Component {
         
           render() {
             return (
-              <div>
+              <>
                   <nav className=" navbar-expand-lg fixed-top">
-                    <div className="container-fluid">
-                      <div> Ace</div>
+                    <div className="container-fluid bg-secondary">
+                      <Row>
+                      <Col> Ace</Col>
+                      <Col>
                         <ul className="style-nav">
                           <li><Link activeClass="active" className="link home-style" to="Hero" spy={true} smooth={true} duration={500} >Home</Link></li>
                           <li><Link activeClass="active" className="link about-style" to="About" spy={true} smooth={true} duration={500}>About</Link></li>
                           <li><Link activeClass="active" className="link project-style" to="Project" spy={true} smooth={true} duration={500} >Project</Link></li>
                           <li><Link activeClass="active" className="link contact-style" to="Contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
                         </ul>
+                      </Col>
+                      <Col className='social-links'>
+                      Links
+                      </Col>
+                      </Row>
                     </div>
                   </nav>
-                  </div>
+                  </>
                 
   );
 }
