@@ -13,8 +13,17 @@ const styles = {
   textAlign: 'center',
 };
 
+    
+
+
+
+
+
+
 function App () {
-  
+  const handleScrollToTop = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
 
   return (
       <>
@@ -37,8 +46,11 @@ function App () {
         </Element>
           
         <Footer>
-          {/* <a onClick={this.scrollToTop}>To the top!</a> */}
         </Footer>
+          <div>
+          <a className="hello" onClick={handleScrollToTop}>To the top!</a>
+            click here
+          </div>
     </>
     );
   }
