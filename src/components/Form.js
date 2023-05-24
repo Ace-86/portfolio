@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function ContactForm() {
     const [form, setForm] = React.useState('Send');

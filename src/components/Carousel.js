@@ -4,7 +4,7 @@ import grass from "./images/grass.jpg";
 import moon from "./images/moon.jpg";
 import apple from "./images/apple.jpg";
 import "./styles/Project.css"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProjectCarousel() {
   return (
@@ -12,7 +12,7 @@ function ProjectCarousel() {
         <Carousel fade>
             <Carousel.Item>
             <img
-                className='d-block w-100 carousel-inners'
+                className='d-block w-100'
                 src={grass}
                 alt="slide 1"
                 />
@@ -25,7 +25,7 @@ function ProjectCarousel() {
 
         <Carousel.Item>
             <img
-                className='d-block w-100 carousel-inners '
+                className='d-block w-100'
                 src={apple}
                 alt="slide 2"
                 />
@@ -38,7 +38,7 @@ function ProjectCarousel() {
 
         <Carousel.Item>
             <img
-                className='d-block w-100 carousel-inners'
+                className='d-block w-100'
                 src={moon}
                 alt="slide 3"
                 />
