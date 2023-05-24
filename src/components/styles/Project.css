@@ -2,10 +2,9 @@
     display: flex;
     background-color: black;
     color: white;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     height: 100%; 
     width: 100%;
-    /* background-color: rgba(44, 43, 43, 0.452); */
 }
 
 .project-container {
@@ -21,8 +20,6 @@
   }
 
 .carousel-inner {
-    /* display: flex;
-    justify-content: start; */
     width: 680px;
     height: 360px;
 }

@@ -1,19 +1,9 @@
-/* .navbar-fixed {
-    position: sticky;
-    top: 0; */
-/* } */
-
 .style-nav {
     display: flex;
     flex-direction: row;
     list-style: none;
-    /* text-decoration: none; */
     justify-content: end;
     width: 100%;
-    /* position: sticky;
-    top: 0; */
-    border: 2px solid red;
-    background-color: rgba(34, 32, 32, 0.329);
 }
 
 .home-style:hover,
@@ -24,10 +14,12 @@
     color: lightblue
 }
 
-
-
 .link {
     color: rgb(255, 255, 255);
     margin: 20px;
 }
 
+.social-links {
+    display: flex;
+    justify-content: end;
+}
