@@ -3,7 +3,6 @@ import github from './images/github.png';
 import linked from './images/linked.png';
 import twitter from './images/twitter.png';
 
-
 import './styles/Links.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
@@ -31,6 +30,7 @@ function Links() {
       
       <Row className='test'>
       <h3> Social</h3>
+
       <div className='links-lined'>
       <img
         className=''
