@@ -1,35 +1,14 @@
-// import React from 'react';
-// import ContactForm from './Form';
-// import Links from './Links';
-// import './styles/Contact.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
-
-
-// function Contact() {
-//   return (
-//     <div className='contact'>
-//       <h1> Connect With Me</h1>
-//       <Row>
-//       <Col >
-//         <ContactForm className='col-sm '/>
-//       </Col>
-//         <Col>
-//           <Links />
-//         </Col>
-//       </Row>
-//     </div>
-//   );
-// }
-
-// export default Contact;
-
-// components/Contact.js
-
-// components/Contact.js
-
 import React from 'react';
+import './styles/Contact.css';
+import './styles/Links.css';
+import github from './images/github.png';
+import linked from './images/linked.png';
+import twitter from './images/twitter.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+
 
 const Contact = () => {
   return (
@@ -45,9 +24,56 @@ const Contact = () => {
           </form>
         </div>
         <div className="contact-info">
-          <p>Email: example@example.com</p>
-          <p>Phone: 123-456-7890</p>
+    
+
+
+        <div>
+      <Col>
+      <Row className='test3'>
+      <div className='test2'>
+      <h3> Email</h3>
+        <p> awes86@gmail.com</p>
+      </div>
+      
+      </Row>
+      
+      <Row className='test3'>
+      <div className='test2'>
+      <h3> Location</h3>
+      <p> Chicago, Il </p>
+      </div>
+      </Row>
+      
+      <Row className='test3'>
+      <div className='test2'>
+
+      <h3> Social</h3>
+
+      <div className='links-lined'>
+      <img
+        className=''
+        src={twitter}
+        alt='twitter'
+      />
+      <img
+        className=''
+        src={linked}
+        alt='linkedin'
+      />
+      <img
+        className=''
+        src={github}
+        alt='github'
+        />
+      </div>
         </div>
+      
+      </Row>
+      </Col>
+      </div>
+
+        </div>
+
       </div>
     </section>
   );
