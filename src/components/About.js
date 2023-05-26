@@ -18,11 +18,10 @@ const About = () => {
             <h2>About Me</h2>
             <p>
               I'm a self-taught web developer with experience in designing new features from ideation to production. 
-              As a self-taught web and mobile app developer, I possess extensive experience in the entire software development cycle, 
+              As a self-taught web developer, I possess experience in the entire software development cycle, 
               from conceptualizing new features to implementing wireframes and design flows into high-performance applications. 
               Throughout my work, I prioritize user experience, ensuring that the code I write is both reusable and efficient. 
-              With a fervent dedication to merging good design, cutting-edge technology, and innovative approaches, 
-              I accompany each project from its initial idea to its final release. Presently, my primary focus lies in full stack development.
+              Presently, my primary focus lies in full stack development.
             </p>
           </div>
         </div>
