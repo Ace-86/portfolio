@@ -1,24 +1,15 @@
 .links {
-    /* border: 2px solid paleturquoise; */
     width: 100%;
     height: 100%;
-    /* align-items: end; */
 }
 
-/* .styled-links {
-    display: grid;
-    justify-content: end;
-} */
-
-.test {
+.test3 {
     display: grid;
     justify-content: center;
-    /* align-items: space-between; */
 }
 
 .test2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    /* justify-content: end; */
 }

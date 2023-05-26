@@ -1,25 +1,37 @@
-.style-nav {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: end;
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-}
-
-.home-style:hover,
-.about-style:hover,
-.contact-style:hover,
-.project-style:hover {
-    text-decoration: underline;
-    color: lightblue
-}
-
-.link {
-    color: rgb(255, 255, 255);
-    margin: 20px;
-}
-
-.social-links {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  nav ul {
     display: flex;
     justify-content: end;
-}
+    list-style: none;
+    padding: 0;
+    margin-right: 70px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  nav li:hover {
+    color: #ccc;
+  }
+  
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
