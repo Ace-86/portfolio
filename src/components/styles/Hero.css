@@ -1,4 +1,8 @@
 .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin-bottom: 40px;
     text-align: center;
   }
@@ -15,3 +19,50 @@
     margin-bottom: 20px;
   }
   
+  .left-side {
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .right-side {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    flex: 1;
+    padding: 20px;
+  }
+  
+
+  .lined-scramble {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .left-side .text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .right-side h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .right-side h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .right-side p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .symbol-1 {
+    color: white;
+    font-size: 100px;
+  }
