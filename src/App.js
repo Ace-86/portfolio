@@ -16,7 +16,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='main_background'>
       <Navbar scrollToSection={scrollToSection} />
       <section id="hero">
         <Hero />
