@@ -15,13 +15,9 @@ const About = () => {
       <div className="about-content">
         <div className="about-me-container">
           <div className="rounded-container">
-            <h2>About Me</h2>
+            <h2>A little about me....</h2>
             <p>
-              I'm a self-taught web developer with experience in designing new features from ideation to production. 
-              As a self-taught web developer, I possess experience in the entire software development cycle, 
-              from conceptualizing new features to implementing wireframes and design flows into high-performance applications. 
-              Throughout my work, I prioritize user experience, ensuring that the code I write is both reusable and efficient. 
-              Presently, my primary focus lies in full stack development.
+           try something different
             </p>
           </div>
         </div>
