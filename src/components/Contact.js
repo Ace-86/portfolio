@@ -26,56 +26,7 @@ const Contact = () => {
        
        
         </div>
-        <div className="contact-info">
-    
-
-
-        <div>
-      <Col>
-      <Row className='test3'>
-      <div className='test2'>
-      <h3> Email</h3>
-        <p> awes86@gmail.com</p>
-      </div>
-      
-      </Row>
-      
-      <Row className='test3'>
-      <div className='test2'>
-      <h3> Location</h3>
-      <p> Chicago, Il </p>
-      </div>
-      </Row>
-      
-      <Row className='test3'>
-      <div className='test2'>
-
-      <h3> Social</h3>
-
-      <div className='links-lined'>
-      <img
-        className=''
-        src={twitter}
-        alt='twitter'
-      />
-      <img
-        className=''
-        src={linked}
-        alt='linkedin'
-      />
-      <img
-        className=''
-        src={github}
-        alt='github'
-        />
-      </div>
-        </div>
-      
-      </Row>
-      </Col>
-      </div>
-
-        </div>
+        
 
       </div>
     </section>
