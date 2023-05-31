@@ -22,6 +22,9 @@ const Contact = () => {
             <textarea placeholder="Message" />
             <button type="submit">Send</button>
           </form>
+       
+       
+       
         </div>
         <div className="contact-info">
     
