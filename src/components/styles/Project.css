@@ -1,15 +1,20 @@
-.project-carousel {
-    position: relative;
+.project-container {
+    /* position: relative; */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     height: 400px;
   }
   
   .project {
     position: relative;
+    flex: 0 0 auto;
+    /* justify-self: space-evenly; */
     width: 300px;
     height: 300px;
+    margin: 50px;
   }
   
   .project img {
@@ -50,25 +55,5 @@
   .project:hover .project-overlay {
     opacity: 1;
   }
-  
-  .previous-button,
-  .next-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px;
-    font-size: 18px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .previous-button {
-    left: -200px;
-  }
-  
-  .next-button {
-    right: -200px;
-  }
+
   
