@@ -1,7 +1,7 @@
 .contact-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    /* align-items: end; */
     margin-bottom: 40px;
     text-align: center;
   }
@@ -37,14 +37,7 @@
     cursor: pointer;
   }
   
-  .contact-content .contact-info {
-    flex-basis: 30%;
-    text-align: right;
-  }
-  
-  .contact-content .contact-info p {
-    margin-bottom: 10px;
-  }
+
   
   /* Media Query for Responsive Layout */
   @media (max-width: 768px) {
